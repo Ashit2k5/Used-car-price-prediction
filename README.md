@@ -34,7 +34,7 @@ based on features like brand, year, kilometers driven, fuel type, and more.
 2. Run the notebook:
    Open PROJECTAI.ipynb in Jupyter
 3. Run the web app:
-   streamlit run app.py
+   streamlit run CODE_WITH_FRONTEND.py
 
 ## 📊 Dataset
 2059 used car listings with features:
