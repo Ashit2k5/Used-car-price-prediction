@@ -4,8 +4,8 @@ A Machine Learning project that predicts the market price of used cars
 based on features like brand, year, kilometers driven, fuel type, and more.
 
 ## 📁 Project Structure
-- `PROJECTAI.ipynb` → Main ML notebook (EDA, model training, evaluation)
-- `app.py`          → Streamlit web app for price prediction
+- `used_car_price_prediction_C.ipynb` → Main ML notebook (EDA, model training, evaluation)
+- `CODE_WITH_FRONTEND.py`          → Streamlit web app for price prediction
 - `car_details_v4_1.csv` → Dataset (2059 used car listings)
 
 ## 🧠 Models Used
@@ -32,9 +32,11 @@ based on features like brand, year, kilometers driven, fuel type, and more.
 1. Install dependencies:
    pip install pandas numpy scikit-learn matplotlib seaborn streamlit
 2. Run the notebook:
-   Open PROJECTAI.ipynb in Jupyter
+   Open used_car_price_prediction_C.ipynb in Jupyter(to Check the Process)
 3. Run the web app:
-   streamlit run CODE_WITH_FRONTEND.py
+   i) Open CODE_WITH_FRONTEND.py in vs code
+   ii) Open terminal and run
+     streamlit run CODE_WITH_FRONTEND.py
 
 ## 📊 Dataset
 2059 used car listings with features:
